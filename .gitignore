@@ -4,4 +4,5 @@ data/mmarco/queries/
 data/mmarco/garbage/
 
 test_translate_en_ur.ipynb
-
+data/mmarco/output/translated_english_collection_part_aa.tsv
+data/mmarco/output/translated_english_collection_part_ab.tsv
