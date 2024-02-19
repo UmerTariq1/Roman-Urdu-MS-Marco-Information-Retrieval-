@@ -1,0 +1,7 @@
+data/mmarco/collections/
+data/mmarco/runs/
+data/mmarco/queries/
+data/mmarco/garbage/
+
+test_translate_en_ur.ipynb
+

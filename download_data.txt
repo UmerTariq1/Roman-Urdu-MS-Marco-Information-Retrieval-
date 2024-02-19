@@ -1,0 +1,19 @@
+1) create the appropriate data folder and go inside it.
+2) create three folders for msmarco. These are:
+    - collections
+    - queries
+        create two sub folders inside queries:
+            - train
+            - dev
+    - runs (this is not actually necessary as its not really data)
+
+3) For collection: 
+    wget https://huggingface.co/datasets/unicamp-dl/mmarco/resolve/main/data/google/collections/english_collection.tsv?download=true
+4) For queries:
+    For dev:
+        wget https://huggingface.co/datasets/unicamp-dl/mmarco/resolve/main/data/google/queries/dev/english_queries.dev.tsv?download=true
+        wget https://huggingface.co/datasets/unicamp-dl/mmarco/resolve/main/data/google/queries/dev/english_queries.dev.small.tsv?download=true
+    For train:
+        wget https://huggingface.co/datasets/unicamp-dl/mmarco/resolve/main/data/google/queries/train/english_queries.train.tsv?download=true
+5) For runs:
+    wget https://huggingface.co/datasets/unicamp-dl/mmarco/resolve/main/data/google/runs/run.bm25_english-msmarco.txt?download=true
