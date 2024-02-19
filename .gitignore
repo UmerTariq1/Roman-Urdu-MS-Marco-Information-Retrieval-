@@ -2,6 +2,8 @@ data/mmarco/collections/
 data/mmarco/runs/
 data/mmarco/queries/
 data/mmarco/garbage/
+IndicTrans2/
+IndicTransTokenizer/
 
 test_translate_en_ur.ipynb
 data/mmarco/output/translated_english_collection_part_aa.tsv
